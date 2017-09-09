@@ -4,7 +4,8 @@
   "description": "A demo of JWT in Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm install",
+    "start": "node index.js"
   },
   "keywords": [
     "JWT",
@@ -13,6 +14,7 @@
   "author": "Stuart Williams",
   "license": "MIT",
   "dependencies": {
-    "base64url": "^2.0.0"
+    "base64url": "^2.0.0",
+    "jsonwebtoken": "^8.0.0"
   }
 }

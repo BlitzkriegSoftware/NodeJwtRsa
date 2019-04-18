@@ -82,4 +82,4 @@ var decoded = jwt.decode(token, {complete: true});
 console.log("Docoded Header: " + JSON.stringify( decoded.header));
 console.log("Docoded Payload: " +  JSON.stringify(decoded.payload));
 
-process.exitCode = 1;
+process.exitCode = 0;

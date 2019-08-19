@@ -1,6 +1,6 @@
 applications:
 - name: jwt
   memory: 128mb
-  stack: cflinuxfs2
+  stack: cflinuxfs3
   buildpack: nodejs_buildpack
  
